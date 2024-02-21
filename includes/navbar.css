@@ -1,0 +1,55 @@
+*{
+  margin:0;
+}
+.container {
+display:flex ;
+flex-direction: row;
+justify-content: space-between;
+align-items: baseline;
+max-width: 100%;
+
+
+
+}
+#logo {
+  height: fit-content;
+  max-width: 20vw;
+ 
+
+}
+
+#contentpasaran {
+  display: none;
+  position: absolute;
+  
+}
+#pasar:hover + #contentpasaran{
+display:block;
+color: brown;
+}
+.menu {
+list-style: none;
+padding:0;
+white-space: nowrap;
+margin-bottom:0;
+
+}
+.menu li {
+  display: inline-block;
+  margin-right: 50px;
+  padding-top: 2%;
+
+}
+.menu li a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-weight:600;
+  font-size: 1vw;
+
+}.menu li a:hover{
+  color:green;
+}
+#list {
+  margin-right: 0;
+}
